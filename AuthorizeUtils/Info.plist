@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>用于扫一扫、扫码二维码等需要访问相机功能</string>
+	<key>NSLocationUsageDescription</key>
+	<string>APP需要通过您的位置信息获取附近商圈、店铺及机器点位</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>用于保存图片到本地相册等需要访问相册功能</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

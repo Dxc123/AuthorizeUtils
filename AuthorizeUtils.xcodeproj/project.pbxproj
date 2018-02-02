@@ -12,6 +12,8 @@
 		C0AB815B2024365A00959805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AB81592024365A00959805 /* Main.storyboard */; };
 		C0AB815D2024365A00959805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AB815C2024365A00959805 /* Assets.xcassets */; };
 		C0AB81602024365A00959805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AB815E2024365A00959805 /* LaunchScreen.storyboard */; };
+		C0AB81682024399A00959805 /* AuthorizeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB81672024399900959805 /* AuthorizeUtils.swift */; };
+		C0AB816A202439A500959805 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB8169202439A500959805 /* UIViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C0AB815C2024365A00959805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0AB815F2024365A00959805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0AB81612024365A00959805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0AB81672024399900959805 /* AuthorizeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizeUtils.swift; sourceTree = "<group>"; };
+		C0AB8169202439A500959805 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				C0AB81552024365A00959805 /* AppDelegate.swift */,
+				C0AB81672024399900959805 /* AuthorizeUtils.swift */,
+				C0AB8169202439A500959805 /* UIViewController+Alert.swift */,
 				C0AB81572024365A00959805 /* ViewController.swift */,
 				C0AB81592024365A00959805 /* Main.storyboard */,
 				C0AB815C2024365A00959805 /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			files = (
 				C0AB81582024365A00959805 /* ViewController.swift in Sources */,
 				C0AB81562024365A00959805 /* AppDelegate.swift in Sources */,
+				C0AB81682024399A00959805 /* AuthorizeUtils.swift in Sources */,
+				C0AB816A202439A500959805 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +283,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484HH5YW2D;
 				INFOPLIST_FILE = AuthorizeUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoyun.AuthorizeUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeomTest.c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +298,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484HH5YW2D;
 				INFOPLIST_FILE = AuthorizeUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoyun.AuthorizeUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeomTest.c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
